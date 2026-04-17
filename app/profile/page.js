@@ -91,29 +91,20 @@ export default function ProfilePage() {
 
           {/* Buttons */}
           <div className="mt-8 flex flex-col gap-4">
+            <button
+              onClick={() => setIsEditing(true)}
+              className="w-full bg-[#7B2CBF] text-white py-3 rounded-lg font-semibold hover:bg-purple-800"
+            >
+              Edit Profile
+            </button>
 
-  <button
-    onClick={() => window.location.href = '/cart'}
-    className="w-full bg-[#FFD166] text-[#7B2CBF] py-3 rounded-lg font-bold hover:scale-105 transition"
-  >
-    Go to Cart 🛒
-  </button>
-
-  <button
-    onClick={() => setIsEditing(true)}
-    className="w-full bg-[#7B2CBF] text-white py-3 rounded-lg font-semibold hover:bg-purple-800"
-  >
-    Edit Profile
-  </button>
-
-  <button
-    onClick={logout}
-    className="w-full bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700"
-  >
-    Logout
-  </button>
-
-</div>
+            <button
+              onClick={logout}
+              className="w-full bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700"
+            >
+              Logout
+            </button>
+          </div>
         </div>
       </div>
     );
