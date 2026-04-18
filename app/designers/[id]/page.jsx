@@ -11,9 +11,9 @@ export default function DesignerProfile() {
     name: 'Demo Designer ' + id,
     bio: 'Expert in ethnic and modern fashion designs. 5+ years experience.',
     designs: [
-      'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
-      'https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg',
-      'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg'
+      'https://pub-95ccf2d427eb4955a7de1c41d3fa57dd.r2.dev/blog-g3fashion-com/2021/12/pastel-pink-gown-for-reception.jpg',
+      'https://manishmalhotra.in/cdn/shop/files/MM-Sustainability-Block-Banner-Image-02.webp?v=1758012965&width=1920',
+      'https://media.istockphoto.com/id/639275740/photo/elegant-gentleman.jpg?s=612x612&w=0&k=20&c=d_yT_79_-eqLISskF3MXx9T5bq6D0EELFanjba7wCXo='
     ]
   };
 
@@ -46,4 +46,5 @@ export default function DesignerProfile() {
 
     </div>
   );
+}
 }
