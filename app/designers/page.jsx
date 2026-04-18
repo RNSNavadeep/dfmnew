@@ -8,14 +8,14 @@ export default function Designers() {
   const designers = [
     {
       id: '1',
-      name: 'Aarav Designer',
-      img: 'https://randomuser.me/api/portraits/men/32.jpg',
+      name: 'Manish Malhotra',
+      img: 'https://images.indianexpress.com/2025/11/manish-malhotra_1600_insta.jpg?w=1200',
       specialty: 'Ethnic Wear'
     },
     {
       id: '2',
-      name: 'Meera Fashion',
-      img: 'https://randomuser.me/api/portraits/women/44.jpg',
+      name: ' Anita Dongre',
+      img: 'https://thenodmag.com/_next/image?url=https%3A%2F%2Fassets.thenodmag.com%2Fwebsite-assets%2FHORIZONTAL_FEATURE_OPTION_7df2c5be91-wgpqbssxpbzsfmk-16x9.jpg&w=3840&q=95',
       specialty: 'Modern Dresses'
     }
   ];
